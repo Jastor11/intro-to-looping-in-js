@@ -105,11 +105,15 @@ The `for` loop is probably the most common loop and is usually the loop of choic
 
 The school newspaper is doing an article for tomorrow's edition on the financial benefits of Ford's new hybrid cars. Unfortunately, the lead researcher lost the log of all the driving miles! Now, they have no data and you're their last hope.
 
-The team has driven their Ford Fusion Hybrid enough to know the miles per gallon info - 41 in the city and 43 on the highway.
+The team has driven their Ford Fusion Hybrid enough to know the miles per gallon info - **41 in the city and 43 on the highway**.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ford_Fusion_Hybrid_WAS_2017_1650.jpg" alt="Ford Fusion Hybrid" style="width: 200px; height: 200px"/>
 
-They've asked you to build a `moneySaver` function. This function should take students' current info and calculate the amount of money spent on gas. Then it should compare that to the 2017 Ford Fusion Hybrid. 
+They've asked you to build a `moneySaver` function. This function should take students' current info and calculate the amount of money spent on gas. Then it should compare that to the 2017 Ford Fusion Hybrid.
+
+This will test your knowledge of using functions and arguments. Be conscious about what input each function takes and what output it returns.
+
+Three case studies have been designed to demonstrate the efficiency of hybrid vehicles. Look over each student's information and design your function to address each situation.
 
 Here's your info:
 
@@ -119,7 +123,8 @@ Here's your info:
   
   + **Mariah** is a senior who just got her license. She's taking a year off to roadtrip around the country and will be driving an average of 110 miles a day on the highway. Her Ford Explorer gets **19 mpg** in the city and **27 mpg** on the highway.
 
-Calculate the yearly savings in gas each of these students could expect by switching to the **Ford Fusion Hybrid**.
+## Goal:
+Calculate the yearly savings in gas each of these students can expect by driving the **Ford Fusion Hybrid**.
 
 Use the tests as a guide!
 
