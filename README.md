@@ -107,19 +107,19 @@ The school newspaper is doing an article for tomorrow's edition on the financial
 
 The team has driven their Ford Fusion Hybrid enough to know the miles per gallon info - 41 in the city and 43 on the highway.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ford_Fusion_Hybrid_WAS_2017_1650.jpg" alt="Ford Fusion Hybrid" style="width: 250px; height: 250px"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ford_Fusion_Hybrid_WAS_2017_1650.jpg" alt="Ford Fusion Hybrid" style="width: 200px; height: 200px"/>
 
 They've asked you to build a `moneySaver` function. This function should take students' current info and calculate the amount of money spent on gas. Then it should compare that to the 2017 Ford Fusion Hybrid. 
 
 Here's your info:
 
-  + Kayla is a high school senior getting ready for college. Driving to college means 20 miles a day on the highway, and 3 miles a day in the city. Kayla's school is in session for only 150 days each year, and she takes the bus when school is out. Her Ford Escape gets 23 mpg in the city and 31 on the highway.
+  + **Kayla** is a high school senior getting ready for college. Driving to college means 20 miles a day on the highway, and 3 miles a day in the city. Kayla's school is in session for only 150 days each year, and she takes the bus when school is out. Her Ford Escape gets **23 mpg** in the city and **31 mpg** on the highway.
   
-  + Paola is a junior who loves cars. Her afternoon, ocean-side joyrides put her at an average of 50 miles a day in the city, and 15 on the highway. She also needs to drive 6 miles a day to get to and from school 180 days of the year. Her Ford Mustang gets 21 mpg in the city and 30 on the highway.
+  + **Paola** is a junior who loves cars. Her afternoon, ocean-side joyrides put her at an average of 50 miles a day in the city, and 15 on the highway. She also needs to drive 6 miles a day to get to and from school 180 days of the year. Her Ford Mustang gets **21 mpg** in the city and **30 mpg** on the highway.
   
-  + Mariah is a senior who just got her license. She's taking a year off to roadtrip around the country and will be driving an average of 110 miles a day on the highway. Her Ford Explorer gets 19 mpg in the city and 27 mpg on the highway.
+  + **Mariah** is a senior who just got her license. She's taking a year off to roadtrip around the country and will be driving an average of 110 miles a day on the highway. Her Ford Explorer gets **19 mpg** in the city and **27 mpg** on the highway.
 
-Calculate the yearly savings in gas each of these students could expect by switching to the Ford Fusion Hybrid.
+Calculate the yearly savings in gas each of these students could expect by switching to the **Ford Fusion Hybrid**.
 
 Use the tests as a guide!
 
