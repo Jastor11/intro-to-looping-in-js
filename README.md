@@ -87,16 +87,12 @@ The additional initialization and iteration statements are as follows:
 ```javascript
 console.log("Just got my new car and 100,000 mile warranty!")
 
-// First, i is set to equal to 1
-// As long as i is less than or equal to 365,
-// run the loop body and add 1 to i
 for (var i = 1; i <= 365; i++) {
   console.log("I've had my car for " + i + "days!")
   console.log("I've now driven " + (i * 20) + " miles.")
 }
 
 // How many years of driving until the warranty expires?
-
 ```
 
 The `for` loop is probably the most common loop and is usually the loop of choice for JavaScript programmers. 
