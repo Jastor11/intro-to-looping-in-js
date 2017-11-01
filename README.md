@@ -97,27 +97,67 @@ for (var i = 1; i <= 365; i++) {
 
 The `for` loop is probably the most common loop and is usually the loop of choice for JavaScript programmers. 
 
-## Instructions
+## Itsa Me, Mario!
 
-The school newspaper is doing an article for tomorrow's edition on the financial benefits of Ford's new hybrid cars. Unfortunately, the lead researcher lost the log of all the driving miles! Now, they have no data and you're their last hope.
+***This is a group lab, so make sure you are working in a group of 2-3 students***
 
-The team has driven their Ford Fusion Hybrid enough to know the miles per gallon info - **41 in the city and 43 on the highway**.
+Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario must hop over two "half-pyramids" of blocks as he heads toward a flag pole. Below is a screenshot.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ford_Fusion_Hybrid_WAS_2017_1650.jpg" alt="Ford Fusion Hybrid" style="width: 200px; height: 200px"/>
+![mario](http://prog1.mprog.nl/course/20%20Problem%20sets/10%201%20-%20Mario/pset13.png)
 
-They've asked you to build a `moneySaver` function. This function should take students' current info and calculate the amount of money spent on gas. Then it should compare that to the 2017 Ford Fusion Hybrid.
+Your mission is to recreate these blocks using Javascript. 
 
-This will test your knowledge of using functions and arguments. Be conscious about what input each function takes and what output it returns.
+### Part I: The Boring Pyramid
+Create a program that will print the following pyramid:
 
-Three case studies have been designed to demonstrate the efficiency of hybrid vehicles. Look over each student's information and design your function to address each situation.
+```
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
 
-Here's your info:
+(The height and the width of the half-pyramids pictured above are 4 with a gap of size 2 separating them.) 
 
-  + **Kayla** is a high school senior getting ready for college. Driving to college means 20 miles a day on the highway, and 3 miles a day in the city. Kayla's school is in session for only 150 days each year, and she takes the bus when school is out. Her Ford Escape gets **23 mpg** in the city and **31 mpg** on the highway.
-  
-  + **Paola** is a junior who loves cars. Her afternoon, ocean-side joyrides put her at an average of 50 miles a day in the city, and 15 on the highway. She also needs to drive 6 miles a day to get to and from school 180 days of the year. Her Ford Mustang gets **21 mpg** in the city and **30 mpg** on the highway.
-  
-  + **Mariah** is a senior who just got her license. She's taking a year off to roadtrip around the country and will be driving an average of 110 miles a day on the highway. Her Ford Explorer gets **19 mpg** in the city and **27 mpg** on the highway.
+### Part II: User Specified Height
+
+Add a new feature to your program that asks a user how tall they would like to make the pyramid. This should be a non-negative integer no greater than 23 (this is the tallest that a pyramid can be in Mario land).
+
+### Part III: Chained pyramids
+
+Modify your code to prompt the user for the number of pyramids they want. Using this number, stack the pyramids on top of each other in a chain. This would be an example of a pyramid with height of 4 and chain length of 3:
+```
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
+### Part IV: Every-Other-Upside-Down Pyramid
+Modify your code to make every other pyramid inverted. Example:
+```
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+####  ####
+ ###  ###
+  ##  ##
+   #  #
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
+
+
 
 ## Goal:
 Calculate the yearly savings in gas each of these students can expect by driving the **Ford Fusion Hybrid**.
